@@ -53,7 +53,7 @@ def givestacks(stacksize):
     subfromtotal = trunc_sum * stacksize
     # print(subfromtotal)    
     # print('sub total')
-    leftovercheck = stacksize + 10
+    leftovercheck = stacksize - 10
     # print(leftovercheck)
     # print('stack check')
     leftover = tns - subfromtotal
